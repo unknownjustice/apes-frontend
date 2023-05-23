@@ -182,7 +182,7 @@ export const changePasswordAPI = async (payload) => {
 export const getAllAgendaAPI = async () => {
   try {
     const { data } = await axios.get(
-      `${REACT_APP_API_URL}/agenda//getallAgendas`
+      `${REACT_APP_API_URL}/agenda/getallAgendas`
     );
     return data;
   } catch (error) {

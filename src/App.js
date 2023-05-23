@@ -17,6 +17,7 @@ import Changepassword from "./pages/ChangePassword";
 import Resetpassword from "./pages/ResetPassword";
 import Members from "./pages/Members";
 import { Toaster } from "react-hot-toast";
+import Addagenda from "./pages/Addagenda";
 
 function App() {
   return (
